@@ -1,0 +1,157 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-06-13 10:54:16.372945",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sales_invoice_section",
+  "ird_restricted_sales_invoice",
+  "purchase_import_section",
+  "purchase_import_naming_series",
+  "column_break_5",
+  "vat_account",
+  "tax_payment_column",
+  "default_debit_account",
+  "column_break_9",
+  "default_credit_account",
+  "cbms_section",
+  "cbms_enable_sync",
+  "cbms_server",
+  "cbms_username",
+  "cbms_password",
+  "column_break_16",
+  "cbms_realtime",
+  "cbms_last_sync_datetime"
+ ],
+ "fields": [
+  {
+   "fieldname": "sales_invoice_section",
+   "fieldtype": "Section Break",
+   "label": "Sales Invoice"
+  },
+  {
+   "default": "0",
+   "description": "Apply restrictions on Sales Invoice enforced by the Inland Revenue Department (IRD) Nepal.\n",
+   "fieldname": "ird_restricted_sales_invoice",
+   "fieldtype": "Check",
+   "label": "Enable IRD Restrictions"
+  },
+  {
+   "fieldname": "purchase_import_section",
+   "fieldtype": "Section Break",
+   "label": "Purchase Import"
+  },
+  {
+   "fieldname": "purchase_import_naming_series",
+   "fieldtype": "Select",
+   "label": "Purchase Import Naming Series"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "vat_account",
+   "fieldtype": "Link",
+   "label": "VAT Account",
+   "options": "Account"
+  },
+  {
+   "fieldname": "tax_payment_column",
+   "fieldtype": "Section Break",
+   "label": "Customs Tax Payment"
+  },
+  {
+   "fieldname": "default_debit_account",
+   "fieldtype": "Link",
+   "label": "Default Debit Account",
+   "options": "Account"
+  },
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "default_credit_account",
+   "fieldtype": "Link",
+   "label": "Default Credit Account",
+   "options": "Account"
+  },
+  {
+   "fieldname": "cbms_section",
+   "fieldtype": "Section Break",
+   "label": "CBMS"
+  },
+  {
+   "default": "0",
+   "fieldname": "cbms_enable_sync",
+   "fieldtype": "Check",
+   "label": "Enable Sync"
+  },
+  {
+   "default": "http://43.245.85.152:9050",
+   "depends_on": "cbms_enable_sync",
+   "fieldname": "cbms_server",
+   "fieldtype": "Data",
+   "label": "Server",
+   "mandatory_depends_on": "cbms_enable_sync"
+  },
+  {
+   "depends_on": "cbms_enable_sync",
+   "fieldname": "cbms_username",
+   "fieldtype": "Data",
+   "label": "Username",
+   "mandatory_depends_on": "cbms_enable_sync"
+  },
+  {
+   "depends_on": "cbms_enable_sync",
+   "fieldname": "cbms_password",
+   "fieldtype": "Data",
+   "label": "Password",
+   "mandatory_depends_on": "cbms_enable_sync"
+  },
+  {
+   "fieldname": "column_break_16",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "depends_on": "cbms_enable_sync",
+   "description": "Synchronize sales invoices in real-time with CBMS.",
+   "fieldname": "cbms_realtime",
+   "fieldtype": "Check",
+   "label": "Real-time"
+  },
+  {
+   "depends_on": "cbms_enable_sync",
+   "fieldname": "cbms_last_sync_datetime",
+   "fieldtype": "Datetime",
+   "label": "Last Sync Datetime",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2022-06-13 11:00:27.565467",
+ "modified_by": "Administrator",
+ "module": "Tuna Technology",
+ "name": "IRD Nepal Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

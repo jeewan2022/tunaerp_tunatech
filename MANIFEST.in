@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include tuna_technology *.css
+recursive-include tuna_technology *.csv
+recursive-include tuna_technology *.html
+recursive-include tuna_technology *.ico
+recursive-include tuna_technology *.js
+recursive-include tuna_technology *.json
+recursive-include tuna_technology *.md
+recursive-include tuna_technology *.png
+recursive-include tuna_technology *.py
+recursive-include tuna_technology *.svg
+recursive-include tuna_technology *.txt
+recursive-exclude tuna_technology *.pyc

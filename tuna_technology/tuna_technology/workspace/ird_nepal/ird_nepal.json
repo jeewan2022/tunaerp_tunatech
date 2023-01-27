@@ -1,0 +1,152 @@
+{
+ "category": "Modules",
+ "charts": [],
+ "creation": "2022-06-19 23:40:48.301456",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 0,
+ "icon": "dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "IRD Nepal",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "IRD Nepal Settings",
+   "link_to": "",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "IRD Nepal Settings",
+   "link_to": "IRD Nepal Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2022-09-10 19:26:43.327089",
+ "modified_by": "Administrator",
+ "module": "Tuna Technology",
+ "name": "IRD Nepal",
+ "onboarding": "",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "shortcuts": [
+  {
+   "doc_view": "New",
+   "icon": "setting",
+   "label": "Settings",
+   "link_to": "IRD Nepal Settings",
+   "restrict_to_domain": "",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "New",
+   "label": "Sales VAT Register",
+   "link_to": "Sales VAT Register",
+   "restrict_to_domain": "",
+   "type": "Report"
+  },
+  {
+   "doc_view": "New",
+   "label": "Sales Return VAT Register",
+   "link_to": "Sales Return VAT Register",
+   "type": "Report"
+  },
+  {
+   "doc_view": "",
+   "label": "Party Wise Sales Register",
+   "link_to": "Party Wise Sales Register",
+   "type": "Report"
+  },
+  {
+   "doc_view": "New",
+   "label": "Monthwise Sales Register",
+   "link_to": "Monthwise Sales Register",
+   "type": "Report"
+  },
+  {
+   "doc_view": "New",
+   "label": "Purchase VAT Register",
+   "link_to": "Purchase VAT Register",
+   "type": "Report"
+  },
+  {
+   "doc_view": "New",
+   "label": "Purchase Return VAT Register",
+   "link_to": "Purchase Return VAT Register",
+   "type": "Report"
+  },
+  {
+   "doc_view": "New",
+   "label": "Party Wise Purchase Register",
+   "link_to": "Party Wise Purchase Register",
+   "type": "Report"
+  },
+  {
+   "doc_view": "New",
+   "label": "Month Wise Purchase Register",
+   "link_to": "Month Wise Purchase Register",
+   "type": "Report"
+  },
+  {
+   "doc_view": "New",
+   "label": "Materialized Report",
+   "link_to": "Materialized Report",
+   "type": "Report"
+  },
+  {
+   "doc_view": "New",
+   "label": "VAT Return",
+   "link_to": "VAT Return",
+   "type": "Report"
+  },
+  {
+   "doc_view": "New",
+   "label": "Balance Confirmation",
+   "link_to": "Balance Confirmation",
+   "type": "Report"
+  },
+  {
+   "doc_view": "New",
+   "label": "Sales Cancelled Register",
+   "link_to": "Sales Cancelled Register",
+   "type": "Report"
+  },
+  {
+   "doc_view": "New",
+   "label": "IRD Materialized View Report",
+   "link_to": "IRD Materialized View Report",
+   "type": "Report"
+  },
+  {
+   "doc_view": "New",
+   "label": "IRD Sales Register Summary-Date Wise",
+   "link_to": "IRD Sales Register Summary-Date Wise",
+   "type": "Report"
+  },
+  {
+   "doc_view": "New",
+   "label": "IRD Sales VAT Register",
+   "link_to": "IRD Sales VAT Register",
+   "type": "Report"
+  },
+  {
+   "doc_view": "New",
+   "label": "IRD Stock Ledger With Value Product Wise Summary",
+   "link_to": "IRD Stock Ledger With Value Product Wise Summary",
+   "type": "Report"
+  }
+ ],
+ "shortcuts_label": "Shortcuts"
+}
